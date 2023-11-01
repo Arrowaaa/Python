@@ -1,0 +1,15 @@
+#Verificação de idades do usuario.
+
+idade = int(input("Qual é a sua idade? "))
+
+if (idade < 8 ):
+    print("Você possui " ,idade," Anos de idade, Então você é um Bebê")
+elif (idade >= 8 and idade <= 13):
+    print("Você possui " ,idade," Anos de idade, Então você é uma Criança")
+elif (idade >= 14 and idade <= 20):
+    print("Você possui " ,idade," Anos de idade, Então você é um Adolescente")
+elif (idade >= 21 and idade <= 64):
+    print("Você possui " ,idade," Anos de idade, Então você é um Adulto")
+elif (idade >= 65):
+    print("Você possui " ,idade," Anos de idade, Então você é um Idoso")    
+  
